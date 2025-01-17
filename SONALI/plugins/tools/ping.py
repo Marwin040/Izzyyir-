@@ -84,7 +84,7 @@ async def ping_com(client, message: Message, _):
     await asyncio.sleep(3)
     await response.edit_caption("**𝐽𝑜𝑙𝑖 𝑀𝑢𝑑𝑢𝑛𝑗𝑢𝑡ℎ𝑢 🥹✨")
     start = datetime.now()
-    pytgping = await VIP.ping()
+    pytgping = await RAUSHAN.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
