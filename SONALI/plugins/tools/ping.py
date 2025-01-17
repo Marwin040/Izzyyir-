@@ -2,7 +2,7 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from SONALI import app
-from SONALI.core.call import VIP
+from SONALI.core.call import RAUSHAN
 from SONALI.utils import bot_sys_stats
 from SONALI.utils.decorators.language import language
 from SONALI.utils.inline import supp_markup
